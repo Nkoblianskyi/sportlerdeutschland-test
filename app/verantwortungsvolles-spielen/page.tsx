@@ -130,7 +130,7 @@ export default function VerantwortungsvollesSpielenPage() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href="https://www.oasis-sperre.de/"
+                href="https://www.oasisscan.de/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-german-gold text-black px-6 py-3 rounded-lg font-bold hover:bg-yellow-500 transition-colors text-center"
@@ -138,7 +138,7 @@ export default function VerantwortungsvollesSpielenPage() {
                 Zur OASIS-Selbstsperre
               </Link>
               <Link
-                href="https://www.oasis-sperre.de/spielerstatus-abfragen"
+                href="https://socialguard.app/oasis/spielersperre-abfragen/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white/10 text-white px-6 py-3 rounded-lg font-bold hover:bg-white/20 transition-colors border border-white/30 text-center"

@@ -36,7 +36,7 @@ export function InfoSections() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link
-                href="https://www.oasis-sperre.de/"
+                href="https://www.oasisscan.de/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-german-gold text-black px-6 py-3 rounded-lg font-bold hover:bg-yellow-500 transition-colors flex items-center gap-2"

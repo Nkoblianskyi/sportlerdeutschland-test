@@ -104,6 +104,22 @@ export function Footer() {
             >
               <img src="/gamble.webp" alt="BeGambleAware" className="h-10" />
             </Link>
+            <Link
+              href="https://www.anonyme-spieler.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity bg-gray-300 p-2 rounded-md"
+            >
+              <img src="/anonye-spieler.webp" alt="Anonye Spieler" className="h-10" />
+            </Link>
+            <Link
+              href="https://www.oasisscan.de/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity bg-gray-300 p-2 rounded-md"
+            >
+              <img src="/oasisscan.png" alt="OASIS Scan" className="h-10" />
+            </Link>
           </div>
         </div>
 
