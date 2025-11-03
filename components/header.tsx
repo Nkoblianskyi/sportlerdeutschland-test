@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export function Header() {
   return (
-    <header className="text-white mb-1">
+    <header className="text-white mb-1 border-b-2 border-german-gold shadow bg-white">
       {/* Mobile Header - Ultra Compact */}
       <div className="md:hidden h-[32px] flex items-center justify-center px-2">
         <Link href="/" className="flex items-center gap-0.5">

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "SportlerDeutschland.com - Beste Sportwetten in Deutschland",
   description:
     "Finden Sie die besten lizenzierten Sportwetten-Anbieter in Deutschland. Vergleichen Sie Boni, Quoten und Features der Top-Buchmacher.",
-    generator: 'v0.app'
+
 }
 
 export default function RootLayout({
