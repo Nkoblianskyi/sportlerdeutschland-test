@@ -4,9 +4,10 @@ import type React from "react"
 
 import { useState, useRef, useEffect } from "react"
 import { Button } from "@/components/ui/button"
-import type { BettingSite } from "../types"
+
 import Link from "next/link"
 import { StarRating } from "./star-rating"
+import { BettingSite } from "@/data/mock-data"
 
 interface SiteCardProps {
   site: BettingSite

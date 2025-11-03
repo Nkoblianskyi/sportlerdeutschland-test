@@ -3,7 +3,8 @@ import { useState, useEffect } from "react"
 import { X, Star, Trophy, TrendingUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import type { BettingSite } from "../types"
+import { BettingSite } from "@/data/mock-data"
+
 
 interface Top3ModalProps {
   bettingSites: BettingSite[]
