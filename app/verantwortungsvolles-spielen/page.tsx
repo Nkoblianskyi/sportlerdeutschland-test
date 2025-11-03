@@ -205,7 +205,7 @@ export default function VerantwortungsvollesSpielenPage() {
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center gap-2">
                       <Phone className="w-4 h-4 text-german-gold" />
-                      <span>Hotline: 0800 1 52 90 00</span>
+                      <span>Helpline: 01805 10 40 11</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <Mail className="w-4 h-4 text-german-gold" />
