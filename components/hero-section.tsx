@@ -69,7 +69,7 @@ export function HeroSection({ onAdvertiserModalOpen, onTermsModalOpen }: HeroSec
                 <span className="text-[10px] lg:text-xs xl:text-sm font-bold">100% Legal & Sicher</span>
               </div>
               <div className="flex items-center gap-1 lg:gap-2">
-                <div className="flex gap-0.5">
+                <div className="flex gap-0.5 border-gray-300 border ">
                   <div className="w-2 h-1.5 lg:w-3 lg:h-2 bg-black"></div>
                   <div className="w-2 h-1.5 lg:w-3 lg:h-2 bg-german-red"></div>
                   <div className="w-2 h-1.5 lg:w-3 lg:h-2 bg-german-gold"></div>
@@ -102,7 +102,7 @@ export function HeroSection({ onAdvertiserModalOpen, onTermsModalOpen }: HeroSec
       {/* Hero Section - Tablet */}
       <div
         className="hidden md:block lg:hidden h-[160px] md:h-[180px] relative overflow-hidden text-white mb-2 w-full"
-        style={{ background: "rgba(0, 0, 0, 0.85)" }}
+        style={{ background: "rgba(0, 0, 0, 0.45)" }}
       >
         <div className="h-full flex flex-col justify-between text-center px-4 md:px-6 py-3">
           <div className="space-y-1">
@@ -118,7 +118,7 @@ export function HeroSection({ onAdvertiserModalOpen, onTermsModalOpen }: HeroSec
               <span className="text-xs md:text-sm font-bold">100% Legal</span>
             </div>
             <div className="flex items-center gap-1 md:gap-2">
-              <div className="flex gap-0.5 md:gap-1">
+              <div className="flex gap-0.5 md:gap-1 border-gray-300 border">
                 <div className="w-2 h-1.5 md:w-3 md:h-2 bg-black"></div>
                 <div className="w-2 h-1.5 md:w-3 md:h-2 bg-german-red"></div>
                 <div className="w-2 h-1.5 md:w-3 md:h-2 bg-german-gold"></div>
@@ -172,7 +172,7 @@ export function HeroSection({ onAdvertiserModalOpen, onTermsModalOpen }: HeroSec
                 <span className="text-[6px] font-bold leading-tight">100% Legal</span>
               </div>
               <div className="flex flex-col items-center">
-                <div className="flex gap-0.5 mb-0.5">
+                <div className="flex gap-0.5 mb-0.5 border-gray-300 border">
                   <div className="w-0.5 h-2 bg-black"></div>
                   <div className="w-0.5 h-2 bg-german-red"></div>
                   <div className="w-0.5 h-2 bg-german-gold"></div>

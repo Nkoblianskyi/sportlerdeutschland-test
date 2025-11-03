@@ -13,8 +13,8 @@ export function Footer() {
             </div>
             <h3 className="text-2xl font-bold font-serif tracking-wide">
               <span className="text-white">Sportler</span>
-              <span className="text-german-red">Deutschland</span>
-              <span className="text-german-gold">.com</span>
+              <span className="text-german-red">Deutsch</span>
+              <span className="text-yellow-500">land</span>
             </h3>
           </Link>
           <p className="text-gray-400 text-sm max-w-2xl mx-auto">
