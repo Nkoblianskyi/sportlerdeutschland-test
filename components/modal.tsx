@@ -19,7 +19,7 @@ export function Modal({ bettingSites, casinoSites }: Top3ModalProps) {
       const timer = setTimeout(() => {
         setIsOpen(true)
         sessionStorage.setItem("welcome-modal-shown", "true")
-      }, 3000)
+      }, 8000)
       return () => clearTimeout(timer)
     }
   }, [])
@@ -55,7 +55,7 @@ export function Modal({ bettingSites, casinoSites }: Top3ModalProps) {
           <div className="absolute inset-0 bg-gradient-to-br from-german-gold/20 to-german-red/20 rounded-xl sm:rounded-2xl blur-xl"></div>
           <div className="relative bg-gradient-to-br from-gray-900 to-black border-2 sm:border-4 border-german-gold rounded-xl sm:rounded-2xl overflow-hidden shadow-2xl">
 
-            <div className="bg-white p-4 sm:p-8 flex items-center justify-center min-h-[100px] sm:min-h-[140px]">
+            <div className="bg-black p-4 sm:p-8 flex items-center justify-center min-h-[100px] sm:min-h-[140px]">
               <img
                 src={topSite?.logo || "/placeholder.svg"}
                 alt={topSite?.name || "Site"}
