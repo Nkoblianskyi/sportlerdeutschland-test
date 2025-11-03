@@ -65,10 +65,15 @@ export function Modal({ bettingSites, casinoSites }: Top3ModalProps) {
             </div>
 
             <div className="p-4 sm:p-8 text-center">
-              <div className="flex justify-center gap-0.5 sm:gap-1 mb-3 sm:mb-6">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 sm:w-7 sm:h-7 fill-german-gold text-german-gold" />
-                ))}
+              <div className="flex items-center justify-center gap-4 sm:gap-6 mb-4 sm:mb-6">
+                <div className="flex justify-center gap-0.5 sm:gap-1">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-5 h-5 sm:w-7 sm:h-7 fill-german-gold text-german-gold" />
+                  ))}
+
+                </div>
+
+                <p className="text-xl sm:text-3xl font-bold text-german-gold">{topSite?.rating}</p>
               </div>
 
               <div className="mb-4 sm:mb-6">
